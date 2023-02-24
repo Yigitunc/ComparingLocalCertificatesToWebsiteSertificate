@@ -66,7 +66,6 @@ public class Main {
         String[] keystoreFiles = getLocalKeystores(path);
         String keystorePassword = "your keystore password";
         KeyStore keystore = KeyStore.getInstance("JKS"); // Keystore type
-
         int count = 0;
 
         // Website you want to go
